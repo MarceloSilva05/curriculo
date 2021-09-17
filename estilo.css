@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+h2{
+    font-size: 20px;
+    color: #19304F;  
+}
+p{
+    color: #222222;
+    font-size:16px; 
+}
+#principal{
+    display: flex;
+    justify-content: center;
+    flex-direction:row;
+    height: 100%;
+}
+#perfil_img{
+    width: 10vw;
+    border-radius: 50%;
+    margin: 11px;
+}
+header{
+    display: flex;
+    align-items:center;
+}
+#titulo{
+    margin-left: 11px;
+}
+
+#titulo p{
+    margin-top: 6px;
+}
+#perfil h2{
+    margin-bottom: 11px;
+}
+#perfil p{
+    margin-bottom:36px;
+    line-height:2em;
+}
+#educacao h2{
+    margin-bottom: 11px;
+}
+#educacao ul{
+    padding-left: 40px;
+}
+#educacao li{
+    line-height: 2.9em;
+}
+#projeto h2{
+    margin: 36px 0 11px 0;
+}
+#projeto ul{
+    padding-left: 40px;
+    line-height: 2.9em;
+}
+#projeto a{
+    text-decoration: none;
+    color: #222222;
+}
+#projeto a:hover{
+    text-shadow: 1px 1px 5px #19304F;
+    color:#19304F;
+}
+#esquerda{
+    margin-right: 5%;
+    width: 50vw;
+}
+#direita{
+    width: 20vw;
+    background-color:#19304F;
+}
+#contato{
+    margin-top: 25%;
+    text-align: center; 
+}
+#contato h2{
+    font-size:20px;
+    margin-bottom: 11px;
+    color: #ffffff;
+}
+#contato p{
+    line-height: 1.4em;
+    color: #ffffff;
+    font-size: 16px;
+    margin-bottom: 22px;
+}
+#contato img{
+    width: 30px;
+    height: 30px;
+}
+#linkedin{
+    margin-right: 7px;
+}
+#conhecimento{
+    margin: 0 auto;
+    width: 200px;
+    margin-top: 25%;
+    text-align: center;
+}
+#conhecimento h2{
+    font-size: 20px;
+    margin-bottom: 11px;
+    color: #ffffff;
+}
+.conhe{
+    margin-bottom: 9px;
+}
+#conhecimento P{
+    color: #ffffff;
+    border-bottom: solid white 2px;
+}
+#idiomas{
+        margin: 0 auto;
+        width: 200px;
+        margin-top: 25%;
+        text-align: center;
+}
+#idiomas h2{
+    font-size: 20px;
+    margin-bottom: 11px;
+    color: #ffffff;
+}
+#idiomas p{
+    color: #ffffff;
+    border-bottom: solid white 2px; 
+}
+
+@media(max-width:900px){
+    #principal{
+        display: block;
+        font-size: 1em;
+        width: 100vw;
+        height: 75vh;
+    }
+    #direita{
+        width: 100vw;
+    }
+    #esquerda{
+        width: 75vw;
+        margin-left: 5%;
+    }
+    #conhecimento{
+        margin-top: 5%;
+    }
+    #perfil_img{
+        border-radius: 50%;
+        margin: 11px;
+    }
+}
